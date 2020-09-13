@@ -17,14 +17,14 @@
 *{margin:0; padding:0;}
   
   #geral{
-    width: 100%;
-    margin:150px auto;
+    width:90%;
+    margin:10px auto;
   }
 
   p{
     padding-top:3%;
-    font-size:18px;
-    color:rgba(116,114,236,0.3);
+    font-size:20px;
+    color:rgba(114, 236, 189, 0.9);
   }
 
   h1{
@@ -38,13 +38,13 @@ body{
 background-position-x: 0px;
 background-image: url("img/Cadlayout.png");
 background-repeat: no-repeat;
-background-size: 1518px;
+background-size:100%;
 
 }
 
 #geral #footer{
 
-padding:50px;
+padding:40px;
 }
 
   </style>
@@ -57,22 +57,17 @@ padding:50px;
   </button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <a class="/contatos" href="#">Lista de contatos</a>
-      </li>&nbsp&nbsp&nbsp&nbsp&nbsp
-      <li class="nav-item">
-        <a class="/contato" href="#">Cadastro de contatos</a>
-      </li>&nbsp&nbsp&nbsp&nbsp&nbsp
-      <li class="nav-item">
-        <a class="/usuarios" href="#">Lista de usuários</a>
-      </li>&nbsp&nbsp&nbsp&nbsp&nbsp
-      <li class="nav-item">
-        <a class="/usuario" href="#">Cadastro de usuários</a>
-      </li>
+      <li><a href="/contatos">Lista de contatos</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a href="/contato">Cadastro de contatos</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a href="/usuarios">Lista de usuários</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a href="/usuario">Cadastro de usuários</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a href="/produtos">Lista de produtos</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a href="/produto">Cadastro de produto</a></li>&nbsp&nbsp&nbsp&nbsp&nbsp
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="/login">Sair</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="navbar-brand" href="/home.jsp">Git</a>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="/login">Sair</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     </ul>
   </div>  
 </nav>
@@ -85,8 +80,8 @@ padding:50px;
 <div id="geral">
 <div id="footer">
  
-  <h3><p>Essa aplicação tem como objetivo realizar o cadastro de produtos, contatos e usúarios<br/> e está à disposição clicando no link Git acima.</p></h3>
-
+  <h3><p>Essa aplicação tem como objetivo realizar o cadastro de produtos, contatos e usúarios<br/> e está à disposição clicando no link logo abaixo.</p></h3>
+  <a href="https://github.com/AndreE0100/app-5"><h3><p>https://github.com/AndreE0100/app-5</p></h3></a>
 
   </div>
 </div>
